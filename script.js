@@ -58,7 +58,7 @@ const weatherIcon = weatherIcons[weather] || "help";
       return `
     <div class="weather-temp">
       <p> ${date}</p>
-      <p> ${temp}</p>
+      <p> ${temp} °C</p>
     </div> 
     <hr>`
     }).join("")
